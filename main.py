@@ -7,6 +7,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from scipy import stats
 
+print("Reading the CSV file..")
 full_health_data = pd.read_csv("data.csv", header=0, sep=",")
 
 x = full_health_data["Average_Pulse"]
